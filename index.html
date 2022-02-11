@@ -5,216 +5,246 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="subject" content="This webpage is about Linux" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Linux</title>
   </head>
   <body>
-    <nav>
-      <h1>Linux</h1>
+    <nav id="navbar">
+      <header>Linux documentation</header>
       <ul>
-        <li><a class="nav-link" href="#introduction">Introduction</a></li>
-        <li><a class="nav-link" href="#what-is">What is linux</a></li>
-        <li><a class="nav-link" href="#why">Why linux</a></li>
-        <li><a class="nav-link" href="#where-start">Where start</a></li>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_is_linux">What is linux</a></li>
+        <li><a class="nav-link" href="#Why_linux">Why linux</a></li>
+        <li><a class="nav-link" href="#Where_start">Where start</a></li>
         <li>
-          <a class="nav-link" href="#directories-structure"
-            >Linux directories structure</a
+          <a class="nav-link" href="#Linux_directories"
+            >Linux directories</a
           >
         </li>
-        <li><a class="nav-link" href="#home-directory">Home directory</a></li>
-        <li><a class="nav-link" href="#terminal">The terminal</a></li>
+        <li><a class="nav-link" href="#Home_directory">Home directory</a></li>
+        <li><a class="nav-link" href="#Terminal">Terminal</a></li>
         <li>
-          <a class="nav-link" href="#commands">Basic terminal commands</a>
+          <a class="nav-link" href="#Terminal_commands">Terminal commands</a>
         </li>
-        <li><a class="nav-link" href="#reference">Reference</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
       </ul>
     </nav>
-    <main>
-      <section id="introduction">
-        <h2>Introduction</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos
-          sed quisquam facere veritatis exercitationem saepe! Assumenda officia
-          doloremque, accusamus velit provident dolor eius in eveniet laboriosam
-          aut ratione dolorum esse! Quo ducimus blanditiis, totam aut fugit
-          ratione, temporibus, modi debitis possimus aspernatur distinctio
-          repudiandae beatae excepturi sed expedita sunt!
-        </p>
-        <ul>
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-            alias Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            expedita.
-          </li>
-          <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Tenetur, atque.
-          </li>
-        </ul>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos
+            sed quisquam facere veritatis exercitationem saepe! Assumenda officia
+            doloremque, accusamus velit provident dolor eius in eveniet laboriosam
+            aut ratione dolorum esse! Quo ducimus blanditiis, totam aut fugit
+            ratione, temporibus, modi debitis possimus aspernatur distinctio
+            repudiandae beatae excepturi sed expedita sunt!
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+              alias Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+              expedita.
+            </li>
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+              aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Tenetur, atque.
+            </li>
+          </ul>
+        </div>
+        
+      </section class="main-section">
+      <section id="What_is_linux">
+        <header>What is linux</header>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nostrum
+            porro ab doloribus, cumque ipsam ratione maiores quis est ducimus
+            accusantium velit officia dicta exercitationem excepturi placeat
+            corporis perspiciatis id, quos eum itaque nihil doloremque tenetur
+            iure? Nostrum quae temporibus sequi similique cum sunt, deleniti
+            expedita modi, ullam earum iusto?
+          </p>
+        </div>
+        
       </section>
-      <section id="what-is">
-        <h2>What is linux</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nostrum
-          porro ab doloribus, cumque ipsam ratione maiores quis est ducimus
-          accusantium velit officia dicta exercitationem excepturi placeat
-          corporis perspiciatis id, quos eum itaque nihil doloremque tenetur
-          iure? Nostrum quae temporibus sequi similique cum sunt, deleniti
-          expedita modi, ullam earum iusto?
-        </p>
+      <section id="Why_linux" class="main-section">
+        <header>Why linux</header>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea
+            consectetur, culpa necessitatibus expedita maiores illo, eaque,
+            voluptas labore consequuntur beatae eos ab molestiae ipsum delectus!
+            Inventore velit pariatur magni voluptate quidem, repellendus dicta
+            tenetur aliquid provident sed eos dolor tempora numquam, consequuntur
+            cumque! Quas hic consequatur esse adipisci atque et corporis aliquam!
+            Quibusdam error iure hic qui voluptatibus blanditiis illo autem atque
+            recusandae minima necessitatibus dolor fugiat, itaque aut.
+          </p>
+          <code class="code">
+            #!/bin/bash <br />
+            TARGET=$1 <br />
+            PATHS="$2"<br />
+            if [[ -d $TARGET && -f $PATHS ]] <br />
+          </code>
+
+        </div>
+        
       </section>
-      <section id="why">
-        <h2>Why linux</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea
-          consectetur, culpa necessitatibus expedita maiores illo, eaque,
-          voluptas labore consequuntur beatae eos ab molestiae ipsum delectus!
-          Inventore velit pariatur magni voluptate quidem, repellendus dicta
-          tenetur aliquid provident sed eos dolor tempora numquam, consequuntur
-          cumque! Quas hic consequatur esse adipisci atque et corporis aliquam!
-          Quibusdam error iure hic qui voluptatibus blanditiis illo autem atque
-          recusandae minima necessitatibus dolor fugiat, itaque aut.
-        </p>
-        <code>
-          #!/bin/bash <br />
-          TARGET=$1 <br />
-          PATHS="$2"<br />
-          if [[ -d $TARGET && -f $PATHS ]] <br />
-        </code>
+      <section id="Where_start" class="main-section">
+        <header>Where start</header>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            doloribus voluptatibus, ea quis possimus perferendis enim incidunt
+            asperiores illo corrupti, numquam rerum placeat quas cupiditate autem
+            distinctio debitis architecto aliquid sed aspernatur reprehenderit!
+            Sed quaerat commodi accusantium accusamus, perspiciatis ab rem dolor.
+            Neque et quia nesciunt, distinctio enim recusandae, doloribus
+            laboriosam quo commodi soluta ex! Nihil ab repellendus optio, ratione
+            nam rerum quas fugiat perspiciatis quasi repudiandae dignissimos vitae
+            iure dolorum repellat non, eveniet asperiores iusto praesentium quos
+            blanditiis cupiditate architecto sint?
+          </p>
+          <ul>
+            <li><a target="_blank" href="https://ubuntu.com/">Ubuntu</a></li>
+            <li><a target="_blank" href="https://archlinux.org/">Arch</a></li>
+            <li><a target="_blank" href="https://manjaro.org/">Manjaro</a></li>
+            <li><a target="_blank" href="https://linuxmint.com/">Mint</a></li>
+            <li>
+              <a target="_blank" href="https://pop.system76.com/">Pop!_OS</a>
+            </li>
+          </ul>
+        </div>
+        
       </section>
-      <section id="where-start">
-        <h2>Where start</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-          doloribus voluptatibus, ea quis possimus perferendis enim incidunt
-          asperiores illo corrupti, numquam rerum placeat quas cupiditate autem
-          distinctio debitis architecto aliquid sed aspernatur reprehenderit!
-          Sed quaerat commodi accusantium accusamus, perspiciatis ab rem dolor.
-          Neque et quia nesciunt, distinctio enim recusandae, doloribus
-          laboriosam quo commodi soluta ex! Nihil ab repellendus optio, ratione
-          nam rerum quas fugiat perspiciatis quasi repudiandae dignissimos vitae
-          iure dolorum repellat non, eveniet asperiores iusto praesentium quos
-          blanditiis cupiditate architecto sint?
-        </p>
-        <ul>
-          <li><a target="_blank" href="https://ubuntu.com/">Ubuntu</a></li>
-          <li><a target="_blank" href="https://archlinux.org/">Arch</a></li>
-          <li><a target="_blank" href="https://manjaro.org/">Manjaro</a></li>
-          <li><a target="_blank" href="https://linuxmint.com/">Mint</a></li>
-          <li>
-            <a target="_blank" href="https://pop.system76.com/">Pop!_OS</a>
-          </li>
-        </ul>
+      <section id="Linux_directories"  class="main-section">
+        <header>Linux directories</header>
+  
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minus
+            quo ut adipisci, ullam eligendi cum in consectetur laborum officiis
+            voluptates quas magnam sunt blanditiis est ipsa at eveniet
+            necessitatibus dolorem ipsum. Nam sint ex exercitationem nobis
+            perspiciatis nesciunt ab numquam minus modi inventore fuga, omnis rem
+            rerum facilis voluptates ad reprehenderit totam impedit autem dolorum.
+            Earum optio molestiae quaerat nostrum, labore corporis dolor! Quae
+            fugit eius recusandae amet ratione?
+          </p>
+          <ul>
+            <h3>bin</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>boot</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>dev</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>etc</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>home</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>media</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>root</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+            <h3>sys</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              repellat adipisci maiores obcaecati velit asperiores dignissimos
+              culpa quaerat sequi veniam.
+            </p>
+          </ul>
+</div>
+        
       </section>
-      <section id="directories-structure">
-        <h2>Linux directories structure</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minus
-          quo ut adipisci, ullam eligendi cum in consectetur laborum officiis
-          voluptates quas magnam sunt blanditiis est ipsa at eveniet
-          necessitatibus dolorem ipsum. Nam sint ex exercitationem nobis
-          perspiciatis nesciunt ab numquam minus modi inventore fuga, omnis rem
-          rerum facilis voluptates ad reprehenderit totam impedit autem dolorum.
-          Earum optio molestiae quaerat nostrum, labore corporis dolor! Quae
-          fugit eius recusandae amet ratione?
-        </p>
-        <ul>
-          <h3>bin</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>boot</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>dev</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>etc</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>home</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>media</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>root</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-          <h3>sys</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            repellat adipisci maiores obcaecati velit asperiores dignissimos
-            culpa quaerat sequi veniam.
-          </p>
-        </ul>
-      </section>
-      <section id="home-directory">
-        <h2>Home directory</h2>
+      <section id="Home_directory" class="main-section">
+        <header>Home directory</header>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a
           optio animi reprehenderit, eaque harum rerum voluptatibus repellendus
           deserunt sed quas omnis repellat amet nisi. Eveniet veniam nemo
           reprehenderit quas.
         </p>
-        <code> cat $HOME </code>
+        <code class="code">cat $HOME</code>
       </section>
-      <section id="terminal">
-        <h2>Terminal</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia
-          dolores in a ut, sapiente, quidem officia qui, animi doloribus hic
-          pariatur aliquam accusantium ipsam ratione accusamus dignissimos iusto
-          quod. Deserunt quas quam a nisi doloribus! Repudiandae sed vitae
-          totam.
-        </p>
+      <section id="Terminal" class="main-section">
+        <header>Terminal</header>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia
+            dolores in a ut, sapiente, quidem officia qui, animi doloribus hic
+            pariatur aliquam accusantium ipsam ratione accusamus dignissimos iusto
+            quod. Deserunt quas quam a nisi doloribus! Repudiandae sed vitae
+            totam.
+          </p>
+        </div>
+        
       </section>
-      <section id="commands">
-        <h2>Basic terminal commands</h2>
+      <section id="Terminal_commands" class="main-section">
+        <header>Terminal commands</header>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio at
           sequi quo quae molestias eaque aspernatur ipsam voluptatibus aut!
           Corporis labore tempora culpa est obcaecati? Necessitatibus error
           culpa ipsa quas?
         </p>
-        <code>
+        <p>Example of a simple script</p>
+
+        <code class="code">
           #!/bin/bash <br />
-          CURRENT_THEME=$(alacritty-themes --current) <br />
-          DARK1="Ashes.dark" <br />
-          DARK2="Tokyonight_Night" <br />
-          LIGHT1="One-Light"<br />
-          LIGHT2="Ashes.light" <br />
+          PHRASE="hello world!"<br />
+          echo $PHRASE
         </code>
+        <p>The following code show all the files</p>
+        <code class="code">ls -lah</code>
+        <p>Change directorie</p>
+        <code class="code">cd directorie_path/</code>
+        <p>Create a new file</p>
+        <code class="code">touch new_file.cpp</code>
       </section>
-      <section id="reference">
-        <h2>Reference</h2>
+      <section id="Reference" class="main-section">
+        <header>Reference</header>
         <ul>
           <li>
             All tha documentation in this page is take from
-            <a href="#">yomismo</a>
+            <a href="https://github.com/catppuccin/style-guide">catppuccin</a>
           </li>
         </ul>
       </section>
     </main>
+    <footer>
+
+      <img id="footer-cat" src="./resources/gray0_ctp_on_line.svg" alt="cat">
+    </footer>
   </body>
 </html>
