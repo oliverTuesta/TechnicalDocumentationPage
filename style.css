@@ -2,24 +2,33 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
   background-color: #1e1e2e;
   color: #d9e0ee;
 }
+
 #navbar {
   position: fixed;
-  width: 300px;
+  top: 0;
+  width: 310px;
   padding: 25px;
   background-color: #161320;
   height: 100%;
 }
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 #navbar li {
-  text-align: center;
   list-style: none;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
   background-color: #c9cbff;
 }
 
@@ -31,19 +40,72 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 850px) {
+  /*For mobile phones: */
+  #navbar ul {
+    height: 210px;
+  }
+  #navbar {
+    position: relative;
+    max-height: 350px;
+    width: 100%;
+    margin: 0;
+  }
+  #main-doc {
+    margin-left: 0px;
+  }
+}
+
 header {
   font-size: 2em;
   padding: 10px;
   font-weight: bold;
 }
 main {
-  margin-left: 300px;
-  padding: 50px;
-  text-align: left;
+  position: absolute;
+  margin-left: 310px;
+}
+
+.main-section ul {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+#Linux_directories h3 {
+  color: #c9cbff;
+}
+
+.main-section li {
+  list-style: square;
+}
+
+#Where_start ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-section a:link {
+  color: #b5e8e0;
+}
+
+.main-section a:visited {
+  color: #ddb6f2;
+}
+.main-section a:hover {
+  color: #f8bd96;
 }
 
 .content {
-  padding: 10px 20px;
+  margin: 0 30px;
+}
+
+.main-section {
+  margin: 30px;
+}
+
+p {
+  font-size: 1.2em;
 }
 
 .code {
